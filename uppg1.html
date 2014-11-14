@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            var belopp = prompt("Vad är ditt belopp?");
+            var rent = prompt("Vad är räntesatsen?");
+            var rsats =  1+(rent / 100); 
+            var double = belopp*2
+            var year = 0;
+        
+            
+            while(belopp < double){
+                belopp = belopp * rsats
+                year ++;
+            
+            }
+            
+            alert("Det kommer ta " + year + " år för att beloppet ska dubblas");
+        
+        
+        
+        
+        </script>        
+    </head>
+</html>
